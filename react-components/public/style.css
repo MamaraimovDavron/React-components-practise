@@ -1,0 +1,61 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Century Gothic", sans-serif;
+}
+
+nav {
+  display: flex;
+  background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
+  height: 8vh;
+  align-items: center;
+  justify-content: space-around;
+  padding: 8px 16px;
+}
+nav ul {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  align-items: center;
+  justify-content: space-around;
+}
+nav ul li {
+  justify-content: space-around;
+  list-style: none;
+}
+nav ul li a {
+  text-decoration: none;
+  font-size: 25px;
+  color: white;
+}
+nav ul li a:hover {
+  color: rgb(236, 230, 230);
+}
+
+.content {
+  height: 85vh;
+  background-image: url("https://pic.rutubelist.ru/video/26/77/26776769789e0b0f65b3799499bf8145.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+footer {
+  height: 7vh;
+  background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-family: "Century Gothic", sans-serif;
+}
+footer p {
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  font-family: "Century Gothic", sans-serif;
+}/*# sourceMappingURL=style.css.map */
